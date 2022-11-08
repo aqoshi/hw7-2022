@@ -92,13 +92,13 @@ document.querySelector("#slider").addEventListener("change", function(e) {
 
 document.querySelector("#vintage").addEventListener("click", function() {
 	const list = video.classList;
-	list.toggle("oldSchool");
+	list.add("oldSchool");
 });
 
 // Original
 
 document.querySelector("#orig").addEventListener("click", function() {
 	const list = video.classList;
-	list.toggle("oldSchool");
+	list.remove("oldSchool");
 });
 
