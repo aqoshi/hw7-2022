@@ -9,9 +9,9 @@ var curTime = 10;
 
 window.addEventListener("load", function() {
 	video = document.querySelector('#player1');
-	console.log("Good job on opening the window")
-	console.log("Autoplay is set to false")
-	console.log("Loop is set to false")
+	console.log("Good job opening the window");
+	console.log("Autoplay is set to false");
+	console.log("Loop is set to false");
 	video.autoplay = false;
 	video.loop = false;
 });
